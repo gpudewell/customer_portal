@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: "/<REPO_NAME>/", // User will replace <REPO_NAME>
   build: {
-    outDir: "dist",
+    outDir: "docs",
   },
   plugins: [react()],
   optimizeDeps: {
