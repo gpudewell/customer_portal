@@ -1,0 +1,1 @@
+export type TaskStatus = 'pending' | 'active' | 'completed' | 'approved' | 'overdue';

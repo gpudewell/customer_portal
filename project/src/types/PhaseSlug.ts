@@ -1,0 +1,1 @@
+export type PhaseSlug = 'discovery' | 'content' | 'design' | 'launch';

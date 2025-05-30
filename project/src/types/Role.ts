@@ -1,0 +1,1 @@
+export type Role = 'client_owner' | 'client_collaborator' | 'de_pm' | 'de_admin' | 'super_admin';

@@ -1,0 +1,1 @@
+export type PageReviewStatus = 'pending' | 'changes_requested' | 'approved';

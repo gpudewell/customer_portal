@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.comment-bubble::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 12px;
+  border: 8px solid transparent;
+  border-right-color: #fff;
+}
